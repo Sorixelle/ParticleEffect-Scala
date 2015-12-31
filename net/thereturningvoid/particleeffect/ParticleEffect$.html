@@ -1,0 +1,1921 @@
+<!DOCTYPE html >
+<html>
+        <head>
+          <title>ParticleEffect - net.thereturningvoid.particleeffect.ParticleEffect</title>
+          <meta name="description" content="ParticleEffect - net.thereturningvoid.particleeffect.ParticleEffect" />
+          <meta name="keywords" content="ParticleEffect net.thereturningvoid.particleeffect.ParticleEffect" />
+          <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+          
+      <link href="../../../lib/template.css" media="screen" type="text/css" rel="stylesheet" />
+      <link href="../../../lib/diagrams.css" media="screen" type="text/css" rel="stylesheet" id="diagrams-css" />
+      <script type="text/javascript" src="../../../lib/jquery.js" id="jquery-js"></script>
+      <script type="text/javascript" src="../../../lib/jquery-ui.js"></script>
+      <script type="text/javascript" src="../../../lib/template.js"></script>
+      <script type="text/javascript" src="../../../lib/tools.tooltip.js"></script>
+      
+      <script type="text/javascript">
+         if(top === self) {
+            var url = '../../../index.html';
+            var hash = 'net.thereturningvoid.particleeffect.ParticleEffect$';
+            var anchor = window.location.hash;
+            var anchor_opt = '';
+            if (anchor.length >= 1)
+              anchor_opt = '@' + anchor.substring(1);
+            window.location.href = url + '#' + hash + anchor_opt;
+         }
+   	  </script>
+    
+        </head>
+        <body class="value">
+      <div id="definition">
+        <img src="../../../lib/object_big.png" />
+        <p id="owner"><a href="../../package.html" class="extype" name="net">net</a>.<a href="../package.html" class="extype" name="net.thereturningvoid">thereturningvoid</a>.<a href="package.html" class="extype" name="net.thereturningvoid.particleeffect">particleeffect</a></p>
+        <h1>ParticleEffect</h1> <span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      </div>
+
+      <h4 id="signature" class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <span class="name">ParticleEffect</span><span class="result"> extends <span class="extype" name="scala.Enumeration">Enumeration</span></span>
+      </span>
+      </h4>
+      
+          <div id="comment" class="fullcommenttop"><div class="comment cmt"><p><b>ParticleEffect Library</b></p><p>This library was created by @DarkBlade12 and allows you to display all Minecraft particle effects on a Bukkit server</p><p>You are welcome to use it, modify it and redistribute it under the following conditions:</p><ul><li>Don't claim this class as your own</li><li>Don't remove this disclaimer</li></ul><p>Special thanks:</p><ul><li>@microgeek (original idea, names and packet parameters)</li><li>@ShadyPotato (1.8 names, ids and packet parameters)</li><li>@RingOfStorms (particle behavior)</li><li>@Cybermaxke (particle behavior)</li><li>@JamieSinn (hosting a jenkins server and documentation for particleeffect)</li></ul><p><i>It would be nice if you provide credit to me if you use this class in a published project</i></p><p>Rewritten in Scala by TheReturningVoid
+</p></div><dl class="attributes block"> <dt>Version</dt><dd><p>1.7
+</p></dd></dl><div class="toggleContainer block">
+          <span class="toggle">Linear Supertypes</span>
+          <div class="superTypes hiddenContent"><span class="extype" name="scala.Enumeration">Enumeration</span>, <span class="extype" name="scala.Serializable">Serializable</span>, <span class="extype" name="java.io.Serializable">Serializable</span>, <span class="extype" name="scala.AnyRef">AnyRef</span>, <span class="extype" name="scala.Any">Any</span></div>
+        </div></div>
+        
+
+      <div id="mbrsel">
+        <div id="textfilter"><span class="pre"></span><span class="input"><input id="mbrsel-input" type="text" accesskey="/" /></span><span class="post"></span></div>
+        <div id="order">
+              <span class="filtertype">Ordering</span>
+              <ol>
+                
+                <li class="alpha in"><span>Alphabetic</span></li>
+                <li class="inherit out"><span>By inheritance</span></li>
+              </ol>
+            </div>
+        <div id="ancestors">
+                <span class="filtertype">Inherited<br />
+                </span>
+                <ol id="linearization">
+                  <li class="in" name="net.thereturningvoid.particleeffect.ParticleEffect"><span>ParticleEffect</span></li><li class="in" name="scala.Enumeration"><span>Enumeration</span></li><li class="in" name="scala.Serializable"><span>Serializable</span></li><li class="in" name="java.io.Serializable"><span>Serializable</span></li><li class="in" name="scala.AnyRef"><span>AnyRef</span></li><li class="in" name="scala.Any"><span>Any</span></li>
+                </ol>
+              </div><div id="ancestors">
+            <span class="filtertype"></span>
+            <ol>
+              <li class="hideall out"><span>Hide All</span></li>
+              <li class="showall in"><span>Show all</span></li>
+            </ol>
+            <a href="http://docs.scala-lang.org/overviews/scaladoc/usage.html#members" target="_blank">Learn more about member selection</a>
+          </div>
+        <div id="visbl">
+            <span class="filtertype">Visibility</span>
+            <ol><li class="public in"><span>Public</span></li><li class="all out"><span>All</span></li></ol>
+          </div>
+      </div>
+
+      <div id="template">
+        <div id="allMembers">
+        
+
+        <div id="types" class="types members">
+              <h3>Type Members</h3>
+              <ol><li name="net.thereturningvoid.particleeffect.ParticleEffect.BlockData" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="BlockDataextendsParticleEffect.ParticleData"></a>
+      <a id="BlockData:BlockData"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="ParticleEffect$$BlockData.html"><span class="name">BlockData</span></a><span class="result"> extends <a href="ParticleEffect$$ParticleData.html" class="extype" name="net.thereturningvoid.particleeffect.ParticleEffect.ParticleData">ParticleData</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@BlockDataextendsParticleEffect.ParticleData" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Represents the block data for the <code>ParticleEffect.BLOCK_CRACK</code> and <code>ParticleEffect.BLOCK_DUST</code> effects</p><div class="fullcomment"><div class="comment cmt"><p>Represents the block data for the <code>ParticleEffect.BLOCK_CRACK</code> and <code>ParticleEffect.BLOCK_DUST</code> effects</p><p>This class is part of the <b>ParticleEffect Library</b> and follows the same usage conditions</p><p>Rewritten in Scala by TheReturningVoid
+</p></div><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">(<span>
+      
+      <span class="symbol">classOf[IllegalArgumentException]</span>
+    </span>)</span>
+              
+        </dd><dt>Since</dt><dd><p>1.6
+</p></dd><dt>Exceptions thrown</dt><dd><span class="cmt">IllegalArgumentException<p>If the material is not a block</p></span></dd><dt>See also</dt><dd><span class="cmt"><p><code>ParticleData#ParticleData(Material, byte)</code>
+</p></span></dd></dl></div>
+    </li><li name="net.thereturningvoid.particleeffect.ParticleEffect.ItemData" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="ItemDataextendsParticleEffect.ParticleData"></a>
+      <a id="ItemData:ItemData"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="ParticleEffect$$ItemData.html"><span class="name">ItemData</span></a><span class="result"> extends <a href="ParticleEffect$$ParticleData.html" class="extype" name="net.thereturningvoid.particleeffect.ParticleEffect.ParticleData">ParticleData</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@ItemDataextendsParticleEffect.ParticleData" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Represents the item data for the <code>ParticleEffect.ITEM_CRACK</code> effect</p><div class="fullcomment"><div class="comment cmt"><p>Represents the item data for the <code>ParticleEffect.ITEM_CRACK</code> effect</p><p>This class is part of the <b>ParticleEffect Library</b> and follows the same usage conditions</p><p>Rewritten in Scala by TheReturningVoid
+</p></div><dl class="attributes block"> <dt>Since</dt><dd><p>1.6
+</p></dd><dt>See also</dt><dd><span class="cmt"><p><code>ParticleData#ParticleData(Material, byte)</code>
+</p></span></dd></dl></div>
+    </li><li name="net.thereturningvoid.particleeffect.ParticleEffect.NoteColor" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="NoteColorextendsParticleEffect.ParticleColor"></a>
+      <a id="NoteColor:NoteColor"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="ParticleEffect$$NoteColor.html"><span class="name">NoteColor</span></a><span class="result"> extends <a href="ParticleEffect$$ParticleColor.html" class="extype" name="net.thereturningvoid.particleeffect.ParticleEffect.ParticleColor">ParticleColor</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@NoteColorextendsParticleEffect.ParticleColor" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Represents the color for the <code>ParticleEffect.NOTE</code> effect</p><div class="fullcomment"><div class="comment cmt"><p>Represents the color for the <code>ParticleEffect.NOTE</code> effect</p><p>This class is part of the <b>ParticleEffect Library</b> and follows the same usage conditions</p><p>Rewritten in Scala by TheReturningVoid
+</p></div><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">(<span>
+      
+      <span class="symbol">classOf[IllegalArgumentException]</span>
+    </span>)</span>
+              
+        </dd><dt>Since</dt><dd><p>1.7
+</p></dd><dt>Exceptions thrown</dt><dd><span class="cmt">IllegalArgumentException<p>If the note value is lower than 0 or higher than 24
+</p></span></dd></dl></div>
+    </li><li name="net.thereturningvoid.particleeffect.ParticleEffect.OrdinaryColor" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="OrdinaryColorextendsParticleEffect.ParticleColor"></a>
+      <a id="OrdinaryColor:OrdinaryColor"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="ParticleEffect$$OrdinaryColor.html"><span class="name">OrdinaryColor</span></a><span class="result"> extends <a href="ParticleEffect$$ParticleColor.html" class="extype" name="net.thereturningvoid.particleeffect.ParticleEffect.ParticleColor">ParticleColor</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@OrdinaryColorextendsParticleEffect.ParticleColor" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Represents the color for effects like <code>ParticleEffect.SPELL_MOB</code>, <code>ParticleEffect.SPELL_MOB_AMBIENT</code> and <code>ParticleEffect.REDSTONE</code></p><div class="fullcomment"><div class="comment cmt"><p>Represents the color for effects like <code>ParticleEffect.SPELL_MOB</code>, <code>ParticleEffect.SPELL_MOB_AMBIENT</code> and <code>ParticleEffect.REDSTONE</code></p><p>This class is part of the <b>ParticleEffect Library</b> and follows the same usage conditions</p><p>Rewritten in Scala by TheReturningVoid
+</p></div><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">(<span>
+      
+      <span class="symbol">classOf[IllegalArgumentException]</span>
+    </span>)</span>
+              
+        </dd><dt>Since</dt><dd><p>1.7
+</p></dd><dt>Exceptions thrown</dt><dd><span class="cmt">IllegalArgumentException<p>If one of the values is lower than 0 or higher than 255
+</p></span></dd></dl></div>
+    </li><li name="net.thereturningvoid.particleeffect.ParticleEffect.PEVal" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="PEValextendsnet.thereturningvoid.particleeffect.ParticleEffect.ValwithProductwithSerializable"></a>
+      <a id="PEVal:PEVal"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="ParticleEffect$$PEVal.html"><span class="name">PEVal</span></a><span class="params">(<span name="name">name: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="particleID">particleID: <span class="extype" name="scala.Int">Int</span></span>, <span name="requiredVersion">requiredVersion: <span class="extype" name="scala.Int">Int</span></span>, <span name="properties">properties: <a href="ParticleEffect$$ParticleProperty$.html#ValueextendsOrdered[Enumeration.this.Value]withSerializable" class="extmbr" name="net.thereturningvoid.particleeffect.ParticleEffect.ParticleProperty.Value">ParticleProperty.Value</a>*</span>)</span><span class="result"> extends <a href="#ValextendsEnumeration.this.ValuewithSerializable" class="extmbr" name="net.thereturningvoid.particleeffect.ParticleEffect.Val">Val</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@PEValextendsnet.thereturningvoid.particleeffect.ParticleEffect.ValwithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      
+    </li><li name="net.thereturningvoid.particleeffect.ParticleEffect.PacketInstantiationException" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="PacketInstantiationExceptionextendsRuntimeException"></a>
+      <a id="PacketInstantiationException:PacketInstantiationException"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="ParticleEffect$$PacketInstantiationException.html"><span class="name">PacketInstantiationException</span></a><span class="result"> extends <span class="extype" name="scala.RuntimeException">RuntimeException</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@PacketInstantiationExceptionextendsRuntimeException" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Represents a runtime exception that is thrown if packet instantiation fails</p><div class="fullcomment"><div class="comment cmt"><p>Represents a runtime exception that is thrown if packet instantiation fails</p><p>This class is part of the <b>ParticleEffect Library</b> and follows the same usage conditions</p><p>Rewritten in Scala by TheReturningVoid
+</p></div><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@SerialVersionUID</span><span class="args">()</span>
+              
+        </dd><dt>Since</dt><dd><p>1.4
+</p></dd></dl></div>
+    </li><li name="net.thereturningvoid.particleeffect.ParticleEffect.PacketSendingException" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="PacketSendingExceptionextendsRuntimeException"></a>
+      <a id="PacketSendingException:PacketSendingException"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="ParticleEffect$$PacketSendingException.html"><span class="name">PacketSendingException</span></a><span class="result"> extends <span class="extype" name="scala.RuntimeException">RuntimeException</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@PacketSendingExceptionextendsRuntimeException" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Represents a runtime exception that is thrown if packet sending fails</p><div class="fullcomment"><div class="comment cmt"><p>Represents a runtime exception that is thrown if packet sending fails</p><p>This class is part of the <b>ParticleEffect Library</b> and follows the same usage conditions</p><p>Rewritten in Scala by TheReturningVoid
+</p></div><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@SerialVersionUID</span><span class="args">()</span>
+              
+        </dd><dt>Since</dt><dd><p>1.4
+</p></dd></dl></div>
+    </li><li name="net.thereturningvoid.particleeffect.ParticleEffect.ParticleColor" visbl="pub" data-isabs="true" fullComment="yes" group="Ungrouped">
+      <a id="ParticleColorextendsAnyRef"></a>
+      <a id="ParticleColor:ParticleColor"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">abstract </span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="ParticleEffect$$ParticleColor.html"><span class="name">ParticleColor</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@ParticleColorextendsAnyRef" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Represents the color for effects like <code>ParticleEffect.SPELL_MOB</code>, <code>ParticleEffect.SPELL_MOB_AMBIENT</code>, <code>ParticleEffect.REDSTONE</code> and <code>ParticleEffect.NOTE</code></p><div class="fullcomment"><div class="comment cmt"><p>Represents the color for effects like <code>ParticleEffect.SPELL_MOB</code>, <code>ParticleEffect.SPELL_MOB_AMBIENT</code>, <code>ParticleEffect.REDSTONE</code> and <code>ParticleEffect.NOTE</code></p><p>This class is part of the <b>ParticleEffect Library</b> and follows the same usage conditions</p><p>Rewritten in Scala by TheReturningVoid
+</p></div><dl class="attributes block"> <dt>Since</dt><dd><p>1.7
+</p></dd></dl></div>
+    </li><li name="net.thereturningvoid.particleeffect.ParticleEffect.ParticleColorException" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="ParticleColorExceptionextendsRuntimeException"></a>
+      <a id="ParticleColorException:ParticleColorException"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="ParticleEffect$$ParticleColorException.html"><span class="name">ParticleColorException</span></a><span class="result"> extends <span class="extype" name="scala.RuntimeException">RuntimeException</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@ParticleColorExceptionextendsRuntimeException" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Represents a runtime exception that is thrown either if the displayed particle effect is not colorable or if the
+particle color type is incorrect</p><div class="fullcomment"><div class="comment cmt"><p>Represents a runtime exception that is thrown either if the displayed particle effect is not colorable or if the
+particle color type is incorrect</p><p>This class is part of the <b>ParticleEffect Library</b> and follows the same usage conditions</p><p>Rewritten in Scala by TheReturningVoid
+</p></div><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@SerialVersionUID</span><span class="args">()</span>
+              
+        </dd><dt>Since</dt><dd><p>1.7
+</p></dd></dl></div>
+    </li><li name="net.thereturningvoid.particleeffect.ParticleEffect.ParticleData" visbl="pub" data-isabs="true" fullComment="yes" group="Ungrouped">
+      <a id="ParticleDataextendsAnyRef"></a>
+      <a id="ParticleData:ParticleData"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">abstract </span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="ParticleEffect$$ParticleData.html"><span class="name">ParticleData</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@ParticleDataextendsAnyRef" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Represents the particle data for effects like <code>ParticleEffect.ITEM_CRACK</code>, <code>ParticleEffect.BLOCK_CRACK</code> and <code>ParticleEffect.BLOCK_DUST</code></p><div class="fullcomment"><div class="comment cmt"><p>Represents the particle data for effects like <code>ParticleEffect.ITEM_CRACK</code>, <code>ParticleEffect.BLOCK_CRACK</code> and <code>ParticleEffect.BLOCK_DUST</code></p><p>This class is part of the <b>ParticleEffect Library</b> and follows the same usage conditions</p><p>Rewritten in Scala by TheReturningVoid
+</p></div><dl class="attributes block"> <dt>Since</dt><dd><p>1.6
+</p></dd></dl></div>
+    </li><li name="net.thereturningvoid.particleeffect.ParticleEffect.ParticleDataException" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="ParticleDataExceptionextendsRuntimeException"></a>
+      <a id="ParticleDataException:ParticleDataException"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="ParticleEffect$$ParticleDataException.html"><span class="name">ParticleDataException</span></a><span class="result"> extends <span class="extype" name="scala.RuntimeException">RuntimeException</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@ParticleDataExceptionextendsRuntimeException" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Represents a runtime exception that is thrown either if the displayed particle effect requires data and has none or vice-versa or if the data type is incorrect</p><div class="fullcomment"><div class="comment cmt"><p>Represents a runtime exception that is thrown either if the displayed particle effect requires data and has none or vice-versa or if the data type is incorrect</p><p>This class is part of the <b>ParticleEffect Library</b> and follows the same usage conditions</p><p>Rewritten in Scala by TheReturningVoid
+</p></div><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@SerialVersionUID</span><span class="args">()</span>
+              
+        </dd><dt>Since</dt><dd><p>1.6
+</p></dd></dl></div>
+    </li><li name="net.thereturningvoid.particleeffect.ParticleEffect.ParticlePacket" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="ParticlePacketextendsAnyRef"></a>
+      <a id="ParticlePacket:ParticlePacket"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="ParticleEffect$$ParticlePacket.html"><span class="name">ParticlePacket</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@ParticlePacketextendsAnyRef" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Represents a particle effect packet with all attributes which is used for sending packets to the players</p><div class="fullcomment"><div class="comment cmt"><p>Represents a particle effect packet with all attributes which is used for sending packets to the players</p><p>This class is part of the <b>ParticleEffect Library</b> and follows the same usage conditions</p><p>Rewritten in Scala by TheReturningVoid
+</p></div><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">(<span>
+      
+      <span class="symbol">classOf[IllegalArgumentException]</span>
+    </span>)</span>
+              
+        </dd><dt>Since</dt><dd><p>1.5
+</p></dd><dt>Exceptions thrown</dt><dd><span class="cmt">IllegalArgumentException<p>If the speed or amount is lower than 0
+</p></span></dd></dl></div>
+    </li><li name="net.thereturningvoid.particleeffect.ParticleEffect.ParticleVersionException" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="ParticleVersionExceptionextendsRuntimeException"></a>
+      <a id="ParticleVersionException:ParticleVersionException"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="ParticleEffect$$ParticleVersionException.html"><span class="name">ParticleVersionException</span></a><span class="result"> extends <span class="extype" name="scala.RuntimeException">RuntimeException</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@ParticleVersionExceptionextendsRuntimeException" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Represents a runtime exception that is thrown if the displayed particle effect requires a newer version</p><div class="fullcomment"><div class="comment cmt"><p>Represents a runtime exception that is thrown if the displayed particle effect requires a newer version</p><p>This class is part of the <b>ParticleEffect Library</b> and follows the same usage conditions</p><p>Rewritten in Scala by TheReturningVoid
+</p></div><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@SerialVersionUID</span><span class="args">()</span>
+              
+        </dd><dt>Since</dt><dd><p>1.6
+</p></dd></dl></div>
+    </li><li name="scala.Enumeration.Val" visbl="prt" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="ValextendsEnumeration.this.ValuewithSerializable"></a>
+      <a id="Val:Val"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <span class="name">Val</span><span class="result"> extends <span class="extype" name="scala.Enumeration.Value">Value</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@ValextendsEnumeration.this.ValuewithSerializable" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>Enumeration</dd><dt>Annotations</dt><dd>
+                <span class="name">@SerialVersionUID</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="scala.Enumeration.Value" visbl="pub" data-isabs="true" fullComment="yes" group="Ungrouped">
+      <a id="ValueextendsOrdered[Enumeration.this.Value]withSerializable"></a>
+      <a id="Value:Value"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">abstract </span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <span class="name">Value</span><span class="result"> extends <span class="extype" name="scala.Ordered">Ordered</span>[<span class="extype" name="scala.Enumeration.Value">Value</span>] with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@ValueextendsOrdered[Enumeration.this.Value]withSerializable" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Enumeration</dd><dt>Annotations</dt><dd>
+                <span class="name">@SerialVersionUID</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="scala.Enumeration.ValueSet" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="ValueSetextendsAbstractSet[Enumeration.this.Value]withSortedSet[Enumeration.this.Value]withSortedSetLike[Enumeration.this.Value,Enumeration.this.ValueSet]withSerializable"></a>
+      <a id="ValueSet:ValueSet"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <span class="name">ValueSet</span><span class="result"> extends <span class="extype" name="scala.collection.AbstractSet">AbstractSet</span>[<span class="extype" name="scala.Enumeration.Value">Value</span>] with <span class="extype" name="scala.collection.immutable.SortedSet">SortedSet</span>[<span class="extype" name="scala.Enumeration.Value">Value</span>] with <span class="extype" name="scala.collection.SortedSetLike">SortedSetLike</span>[<span class="extype" name="scala.Enumeration.Value">Value</span>, <span class="extype" name="scala.Enumeration.ValueSet">ValueSet</span>] with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@ValueSetextendsAbstractSet[Enumeration.this.Value]withSortedSet[Enumeration.this.Value]withSortedSetLike[Enumeration.this.Value,Enumeration.this.ValueSet]withSerializable" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Enumeration</dd></dl></div>
+    </li><li name="net.thereturningvoid.particleeffect.ParticleEffect.VersionIncompatibleException" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="VersionIncompatibleExceptionextendsRuntimeException"></a>
+      <a id="VersionIncompatibleException:VersionIncompatibleException"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="ParticleEffect$$VersionIncompatibleException.html"><span class="name">VersionIncompatibleException</span></a><span class="result"> extends <span class="extype" name="scala.RuntimeException">RuntimeException</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@VersionIncompatibleExceptionextendsRuntimeException" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Represents a runtime exception that is thrown if a bukkit version is not compatible with this library</p><div class="fullcomment"><div class="comment cmt"><p>Represents a runtime exception that is thrown if a bukkit version is not compatible with this library</p><p>This class is part of the <b>ParticleEffect Library</b> and follows the same usage conditions</p><p>Rewritten in Scala by TheReturningVoid
+</p></div><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@SerialVersionUID</span><span class="args">()</span>
+              
+        </dd><dt>Since</dt><dd><p>1.5
+</p></dd></dl></div>
+    </li></ol>
+            </div>
+
+        
+
+        <div id="values" class="values members">
+              <h3>Value Members</h3>
+              <ol><li name="scala.AnyRef#!=" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="!=(x$1:Any):Boolean"></a>
+      <a id="!=(Any):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span title="gt4s: $bang$eq" class="name">!=</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="scala.Any">Any</span></span>)</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@!=(x$1:Any):Boolean" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+    </li><li name="scala.AnyRef###" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="##():Int"></a>
+      <a id="##():Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span title="gt4s: $hash$hash" class="name">##</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Int">Int</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@##():Int" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+    </li><li name="scala.AnyRef#==" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="==(x$1:Any):Boolean"></a>
+      <a id="==(Any):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span title="gt4s: $eq$eq" class="name">==</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="scala.Any">Any</span></span>)</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@==(x$1:Any):Boolean" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+    </li><li name="net.thereturningvoid.particleeffect.ParticleEffect#BARRIER" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="BARRIER:net.thereturningvoid.particleeffect.ParticleEffect.Value"></a>
+      <a id="BARRIER:Value"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">BARRIER</span><span class="result">: <a href="#ValueextendsOrdered[Enumeration.this.Value]withSerializable" class="extmbr" name="net.thereturningvoid.particleeffect.ParticleEffect.Value">Value</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@BARRIER:net.thereturningvoid.particleeffect.ParticleEffect.Value" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">A particle effect which is displayed by barriers:</p><div class="fullcomment"><div class="comment cmt"><p>A particle effect which is displayed by barriers:</p><ul><li>It looks like a red box with a slash through it</li><li>The speed value has no influence on this particle effect
+</li></ul></div></div>
+    </li><li name="net.thereturningvoid.particleeffect.ParticleEffect#BLOCK_CRACK" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="BLOCK_CRACK:net.thereturningvoid.particleeffect.ParticleEffect.Value"></a>
+      <a id="BLOCK_CRACK:Value"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">BLOCK_CRACK</span><span class="result">: <a href="#ValueextendsOrdered[Enumeration.this.Value]withSerializable" class="extmbr" name="net.thereturningvoid.particleeffect.ParticleEffect.Value">Value</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@BLOCK_CRACK:net.thereturningvoid.particleeffect.ParticleEffect.Value" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">A particle effect which is displayed when breaking blocks or sprinting:</p><div class="fullcomment"><div class="comment cmt"><p>A particle effect which is displayed when breaking blocks or sprinting:</p><ul><li>It looks like a little piece with a block texture</li><li>The speed value has no influence on this particle effect
+</li></ul></div></div>
+    </li><li name="net.thereturningvoid.particleeffect.ParticleEffect#BLOCK_DUST" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="BLOCK_DUST:net.thereturningvoid.particleeffect.ParticleEffect.Value"></a>
+      <a id="BLOCK_DUST:Value"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">BLOCK_DUST</span><span class="result">: <a href="#ValueextendsOrdered[Enumeration.this.Value]withSerializable" class="extmbr" name="net.thereturningvoid.particleeffect.ParticleEffect.Value">Value</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@BLOCK_DUST:net.thereturningvoid.particleeffect.ParticleEffect.Value" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">A particle effect which is displayed when falling:</p><div class="fullcomment"><div class="comment cmt"><p>A particle effect which is displayed when falling:</p><ul><li>It looks like a little piece with a block texture
+</li></ul></div></div>
+    </li><li name="net.thereturningvoid.particleeffect.ParticleEffect#CLOUD" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="CLOUD:net.thereturningvoid.particleeffect.ParticleEffect.Value"></a>
+      <a id="CLOUD:Value"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">CLOUD</span><span class="result">: <a href="#ValueextendsOrdered[Enumeration.this.Value]withSerializable" class="extmbr" name="net.thereturningvoid.particleeffect.ParticleEffect.Value">Value</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@CLOUD:net.thereturningvoid.particleeffect.ParticleEffect.Value" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">A particle effect which is displayed when a mob dies:</p><div class="fullcomment"><div class="comment cmt"><p>A particle effect which is displayed when a mob dies:</p><ul><li>It looks like a large white cloud</li><li>The speed value influences the velocity at which the particle flies off
+</li></ul></div></div>
+    </li><li name="net.thereturningvoid.particleeffect.ParticleEffect#CRIT" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="CRIT:net.thereturningvoid.particleeffect.ParticleEffect.Value"></a>
+      <a id="CRIT:Value"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">CRIT</span><span class="result">: <a href="#ValueextendsOrdered[Enumeration.this.Value]withSerializable" class="extmbr" name="net.thereturningvoid.particleeffect.ParticleEffect.Value">Value</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@CRIT:net.thereturningvoid.particleeffect.ParticleEffect.Value" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">A particle effect which is displayed when landing a critical hit and by arrows:</p><div class="fullcomment"><div class="comment cmt"><p>A particle effect which is displayed when landing a critical hit and by arrows:</p><ul><li>It looks like a light brown cross</li><li>The speed value influences the velocity at which the particle flies off
+</li></ul></div></div>
+    </li><li name="net.thereturningvoid.particleeffect.ParticleEffect#CRIT_MAGIC" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="CRIT_MAGIC:net.thereturningvoid.particleeffect.ParticleEffect.Value"></a>
+      <a id="CRIT_MAGIC:Value"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">CRIT_MAGIC</span><span class="result">: <a href="#ValueextendsOrdered[Enumeration.this.Value]withSerializable" class="extmbr" name="net.thereturningvoid.particleeffect.ParticleEffect.Value">Value</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@CRIT_MAGIC:net.thereturningvoid.particleeffect.ParticleEffect.Value" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">A particle effect which is displayed when landing a hit with an enchanted weapon:</p><div class="fullcomment"><div class="comment cmt"><p>A particle effect which is displayed when landing a hit with an enchanted weapon:</p><ul><li>It looks like a cyan star</li><li>The speed value influences the velocity at which the particle flies off
+</li></ul></div></div>
+    </li><li name="net.thereturningvoid.particleeffect.ParticleEffect#DRIP_LAVA" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="DRIP_LAVA:net.thereturningvoid.particleeffect.ParticleEffect.Value"></a>
+      <a id="DRIP_LAVA:Value"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">DRIP_LAVA</span><span class="result">: <a href="#ValueextendsOrdered[Enumeration.this.Value]withSerializable" class="extmbr" name="net.thereturningvoid.particleeffect.ParticleEffect.Value">Value</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@DRIP_LAVA:net.thereturningvoid.particleeffect.ParticleEffect.Value" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">A particle effect which is displayed by blocks beneath a lava source:</p><div class="fullcomment"><div class="comment cmt"><p>A particle effect which is displayed by blocks beneath a lava source:</p><ul><li>It looks like an orange drip</li><li>The speed value has no influence on this particle effect
+</li></ul></div></div>
+    </li><li name="net.thereturningvoid.particleeffect.ParticleEffect#DRIP_WATER" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="DRIP_WATER:net.thereturningvoid.particleeffect.ParticleEffect.Value"></a>
+      <a id="DRIP_WATER:Value"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">DRIP_WATER</span><span class="result">: <a href="#ValueextendsOrdered[Enumeration.this.Value]withSerializable" class="extmbr" name="net.thereturningvoid.particleeffect.ParticleEffect.Value">Value</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@DRIP_WATER:net.thereturningvoid.particleeffect.ParticleEffect.Value" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">A particle effect which is displayed by blocks beneath a water source:</p><div class="fullcomment"><div class="comment cmt"><p>A particle effect which is displayed by blocks beneath a water source:</p><ul><li>It looks like a blue drip</li><li>The speed value has no influence on this particle effect
+</li></ul></div></div>
+    </li><li name="net.thereturningvoid.particleeffect.ParticleEffect#ENCHANTMENT_TABLE" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="ENCHANTMENT_TABLE:net.thereturningvoid.particleeffect.ParticleEffect.Value"></a>
+      <a id="ENCHANTMENT_TABLE:Value"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">ENCHANTMENT_TABLE</span><span class="result">: <a href="#ValueextendsOrdered[Enumeration.this.Value]withSerializable" class="extmbr" name="net.thereturningvoid.particleeffect.ParticleEffect.Value">Value</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@ENCHANTMENT_TABLE:net.thereturningvoid.particleeffect.ParticleEffect.Value" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">A particle effect which is displayed by enchantment tables which are nearby bookshelves:</p><div class="fullcomment"><div class="comment cmt"><p>A particle effect which is displayed by enchantment tables which are nearby bookshelves:</p><ul><li>It looks like a cryptic white letter</li><li>The speed value influences the spread of this particle effect
+</li></ul></div></div>
+    </li><li name="net.thereturningvoid.particleeffect.ParticleEffect#EXPLOSION_HUGE" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="EXPLOSION_HUGE:net.thereturningvoid.particleeffect.ParticleEffect.Value"></a>
+      <a id="EXPLOSION_HUGE:Value"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">EXPLOSION_HUGE</span><span class="result">: <a href="#ValueextendsOrdered[Enumeration.this.Value]withSerializable" class="extmbr" name="net.thereturningvoid.particleeffect.ParticleEffect.Value">Value</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@EXPLOSION_HUGE:net.thereturningvoid.particleeffect.ParticleEffect.Value" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">A particle effect which is displayed by exploding tnt and creepers:</p><div class="fullcomment"><div class="comment cmt"><p>A particle effect which is displayed by exploding tnt and creepers:</p><ul><li>It looks like a crowd of gray balls which are fading away</li><li>The speed value has no influence on this particle effect
+</li></ul></div></div>
+    </li><li name="net.thereturningvoid.particleeffect.ParticleEffect#EXPLOSION_LARGE" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="EXPLOSION_LARGE:net.thereturningvoid.particleeffect.ParticleEffect.Value"></a>
+      <a id="EXPLOSION_LARGE:Value"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">EXPLOSION_LARGE</span><span class="result">: <a href="#ValueextendsOrdered[Enumeration.this.Value]withSerializable" class="extmbr" name="net.thereturningvoid.particleeffect.ParticleEffect.Value">Value</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@EXPLOSION_LARGE:net.thereturningvoid.particleeffect.ParticleEffect.Value" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">A particle effect which is displayed by exploding ghast fireballs and wither skulls:</p><div class="fullcomment"><div class="comment cmt"><p>A particle effect which is displayed by exploding ghast fireballs and wither skulls:</p><ul><li>It looks like a gray ball which is fading away</li><li>The speed value slightly influences the size of this particle effect
+</li></ul></div></div>
+    </li><li name="net.thereturningvoid.particleeffect.ParticleEffect#EXPLOSION_NORMAL" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="EXPLOSION_NORMAL:net.thereturningvoid.particleeffect.ParticleEffect.Value"></a>
+      <a id="EXPLOSION_NORMAL:Value"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">EXPLOSION_NORMAL</span><span class="result">: <a href="#ValueextendsOrdered[Enumeration.this.Value]withSerializable" class="extmbr" name="net.thereturningvoid.particleeffect.ParticleEffect.Value">Value</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@EXPLOSION_NORMAL:net.thereturningvoid.particleeffect.ParticleEffect.Value" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">A particle effect which is displayed by exploding tnt and creepers:</p><div class="fullcomment"><div class="comment cmt"><p>A particle effect which is displayed by exploding tnt and creepers:</p><ul><li>It looks like a white cloud</li><li>The speed value influences the velocity at which the particle flies off
+</li></ul></div></div>
+    </li><li name="net.thereturningvoid.particleeffect.ParticleEffect#FIREWORKS_SPARK" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="FIREWORKS_SPARK:net.thereturningvoid.particleeffect.ParticleEffect.Value"></a>
+      <a id="FIREWORKS_SPARK:Value"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">FIREWORKS_SPARK</span><span class="result">: <a href="#ValueextendsOrdered[Enumeration.this.Value]withSerializable" class="extmbr" name="net.thereturningvoid.particleeffect.ParticleEffect.Value">Value</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@FIREWORKS_SPARK:net.thereturningvoid.particleeffect.ParticleEffect.Value" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">A particle effect which is displayed by launching fireworks:</p><div class="fullcomment"><div class="comment cmt"><p>A particle effect which is displayed by launching fireworks:</p><ul><li>It looks like a white star which is sparkling</li><li>The speed value influences the velocity at which the particle flies off
+</li></ul></div></div>
+    </li><li name="net.thereturningvoid.particleeffect.ParticleEffect#FLAME" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="FLAME:net.thereturningvoid.particleeffect.ParticleEffect.Value"></a>
+      <a id="FLAME:Value"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">FLAME</span><span class="result">: <a href="#ValueextendsOrdered[Enumeration.this.Value]withSerializable" class="extmbr" name="net.thereturningvoid.particleeffect.ParticleEffect.Value">Value</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@FLAME:net.thereturningvoid.particleeffect.ParticleEffect.Value" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">A particle effect which is displayed by torches, active furnaces, magma cubes and monster spawners:</p><div class="fullcomment"><div class="comment cmt"><p>A particle effect which is displayed by torches, active furnaces, magma cubes and monster spawners:</p><ul><li>It looks like a tiny flame</li><li>The speed value influences the velocity at which the particle flies off
+</li></ul></div></div>
+    </li><li name="net.thereturningvoid.particleeffect.ParticleEffect#FOOTSTEP" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="FOOTSTEP:net.thereturningvoid.particleeffect.ParticleEffect.Value"></a>
+      <a id="FOOTSTEP:Value"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">FOOTSTEP</span><span class="result">: <a href="#ValueextendsOrdered[Enumeration.this.Value]withSerializable" class="extmbr" name="net.thereturningvoid.particleeffect.ParticleEffect.Value">Value</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@FOOTSTEP:net.thereturningvoid.particleeffect.ParticleEffect.Value" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">A particle effect which is currently unused:</p><div class="fullcomment"><div class="comment cmt"><p>A particle effect which is currently unused:</p><ul><li>It looks like a transparent gray square</li><li>The speed value has no influence on this particle effect
+</li></ul></div></div>
+    </li><li name="net.thereturningvoid.particleeffect.ParticleEffect#HEART" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="HEART:net.thereturningvoid.particleeffect.ParticleEffect.Value"></a>
+      <a id="HEART:Value"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">HEART</span><span class="result">: <a href="#ValueextendsOrdered[Enumeration.this.Value]withSerializable" class="extmbr" name="net.thereturningvoid.particleeffect.ParticleEffect.Value">Value</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@HEART:net.thereturningvoid.particleeffect.ParticleEffect.Value" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">A particle effect which is displayed when breeding and taming animals:</p><div class="fullcomment"><div class="comment cmt"><p>A particle effect which is displayed when breeding and taming animals:</p><ul><li>It looks like a red heart</li><li>The speed value has no influence on this particle effect
+</li></ul></div></div>
+    </li><li name="net.thereturningvoid.particleeffect.ParticleEffect#ITEM_CRACK" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="ITEM_CRACK:net.thereturningvoid.particleeffect.ParticleEffect.Value"></a>
+      <a id="ITEM_CRACK:Value"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">ITEM_CRACK</span><span class="result">: <a href="#ValueextendsOrdered[Enumeration.this.Value]withSerializable" class="extmbr" name="net.thereturningvoid.particleeffect.ParticleEffect.Value">Value</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@ITEM_CRACK:net.thereturningvoid.particleeffect.ParticleEffect.Value" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">A particle effect which is displayed when breaking a tool or eggs hit a block:</p><div class="fullcomment"><div class="comment cmt"><p>A particle effect which is displayed when breaking a tool or eggs hit a block:</p><ul><li>It looks like a little piece with an item texture
+</li></ul></div></div>
+    </li><li name="net.thereturningvoid.particleeffect.ParticleEffect#ITEM_TAKE" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="ITEM_TAKE:net.thereturningvoid.particleeffect.ParticleEffect.Value"></a>
+      <a id="ITEM_TAKE:Value"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">ITEM_TAKE</span><span class="result">: <a href="#ValueextendsOrdered[Enumeration.this.Value]withSerializable" class="extmbr" name="net.thereturningvoid.particleeffect.ParticleEffect.Value">Value</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@ITEM_TAKE:net.thereturningvoid.particleeffect.ParticleEffect.Value" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">A particle effect which is currently unused:</p><div class="fullcomment"><div class="comment cmt"><p>A particle effect which is currently unused:</p><ul><li>It has no visual effect
+</li></ul></div></div>
+    </li><li name="net.thereturningvoid.particleeffect.ParticleEffect#LAVA" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="LAVA:net.thereturningvoid.particleeffect.ParticleEffect.Value"></a>
+      <a id="LAVA:Value"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">LAVA</span><span class="result">: <a href="#ValueextendsOrdered[Enumeration.this.Value]withSerializable" class="extmbr" name="net.thereturningvoid.particleeffect.ParticleEffect.Value">Value</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@LAVA:net.thereturningvoid.particleeffect.ParticleEffect.Value" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">A particle effect which is displayed by lava:</p><div class="fullcomment"><div class="comment cmt"><p>A particle effect which is displayed by lava:</p><ul><li>It looks like a spark</li><li>The speed value has no influence on this particle effect
+</li></ul></div></div>
+    </li><li name="net.thereturningvoid.particleeffect.ParticleEffect#MOB_APPEARANCE" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="MOB_APPEARANCE:net.thereturningvoid.particleeffect.ParticleEffect.Value"></a>
+      <a id="MOB_APPEARANCE:Value"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">MOB_APPEARANCE</span><span class="result">: <a href="#ValueextendsOrdered[Enumeration.this.Value]withSerializable" class="extmbr" name="net.thereturningvoid.particleeffect.ParticleEffect.Value">Value</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@MOB_APPEARANCE:net.thereturningvoid.particleeffect.ParticleEffect.Value" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">A particle effect which is displayed by elder guardians:</p><div class="fullcomment"><div class="comment cmt"><p>A particle effect which is displayed by elder guardians:</p><ul><li>It looks like the shape of the elder guardian</li><li>The speed value has no influence on this particle effect</li><li>The offset values have no influence on this particle effect
+</li></ul></div></div>
+    </li><li name="net.thereturningvoid.particleeffect.ParticleEffect#NOTE" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="NOTE:net.thereturningvoid.particleeffect.ParticleEffect.Value"></a>
+      <a id="NOTE:Value"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">NOTE</span><span class="result">: <a href="#ValueextendsOrdered[Enumeration.this.Value]withSerializable" class="extmbr" name="net.thereturningvoid.particleeffect.ParticleEffect.Value">Value</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@NOTE:net.thereturningvoid.particleeffect.ParticleEffect.Value" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">A particle effect which is displayed by note blocks:</p><div class="fullcomment"><div class="comment cmt"><p>A particle effect which is displayed by note blocks:</p><ul><li>It looks like a colored note</li><li>The speed value causes the particle to be colored green when set to 0
+</li></ul></div></div>
+    </li><li name="net.thereturningvoid.particleeffect.ParticleEffect#PEValue" visbl="prt" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="PEValue(name:String,particleID:Int,requiredVersion:Int,properties:net.thereturningvoid.particleeffect.ParticleEffect.ParticleProperty.Value*):net.thereturningvoid.particleeffect.ParticleEffect.Value"></a>
+      <a id="PEValue(String,Int,Int,ParticleEffect.ParticleProperty.Value*):Value"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">PEValue</span><span class="params">(<span name="name">name: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="particleID">particleID: <span class="extype" name="scala.Int">Int</span></span>, <span name="requiredVersion">requiredVersion: <span class="extype" name="scala.Int">Int</span></span>, <span name="properties">properties: <a href="ParticleEffect$$ParticleProperty$.html#ValueextendsOrdered[Enumeration.this.Value]withSerializable" class="extmbr" name="net.thereturningvoid.particleeffect.ParticleEffect.ParticleProperty.Value">ParticleEffect.ParticleProperty.Value</a>*</span>)</span><span class="result">: <a href="#ValueextendsOrdered[Enumeration.this.Value]withSerializable" class="extmbr" name="net.thereturningvoid.particleeffect.ParticleEffect.Value">Value</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@PEValue(name:String,particleID:Int,requiredVersion:Int,properties:net.thereturningvoid.particleeffect.ParticleEffect.ParticleProperty.Value*):net.thereturningvoid.particleeffect.ParticleEffect.Value" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd></dl></div>
+    </li><li name="net.thereturningvoid.particleeffect.ParticleEffect#PORTAL" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="PORTAL:net.thereturningvoid.particleeffect.ParticleEffect.Value"></a>
+      <a id="PORTAL:Value"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">PORTAL</span><span class="result">: <a href="#ValueextendsOrdered[Enumeration.this.Value]withSerializable" class="extmbr" name="net.thereturningvoid.particleeffect.ParticleEffect.Value">Value</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@PORTAL:net.thereturningvoid.particleeffect.ParticleEffect.Value" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">A particle effect which is displayed by nether portals, endermen, ender pearls, eyes of ender, ender chests and dragon eggs:</p><div class="fullcomment"><div class="comment cmt"><p>A particle effect which is displayed by nether portals, endermen, ender pearls, eyes of ender, ender chests and dragon eggs:</p><ul><li>It looks like a purple cloud</li><li>The speed value influences the spread of this particle effect
+</li></ul></div></div>
+    </li><li name="net.thereturningvoid.particleeffect.ParticleEffect.ParticlePacket" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="ParticlePacket"></a>
+      <a id="ParticlePacket:ParticlePacket"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="ParticleEffect$$ParticlePacket$.html"><span class="name">ParticlePacket</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@ParticlePacket" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Companion object for the ParticlePacket class.</p><div class="fullcomment"><div class="comment cmt"><p>Companion object for the ParticlePacket class.
+</p></div><dl class="attributes block"> <dt>Since</dt><dd><p>1.7
+</p></dd></dl></div>
+    </li><li name="net.thereturningvoid.particleeffect.ParticleEffect.ParticleProperty" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="ParticleProperty"></a>
+      <a id="ParticleProperty:ParticleProperty"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="ParticleEffect$$ParticleProperty$.html"><span class="name">ParticleProperty</span></a><span class="result"> extends <span class="extype" name="scala.Enumeration">Enumeration</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@ParticleProperty" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Represents the property of a particle effect</p><div class="fullcomment"><div class="comment cmt"><p>Represents the property of a particle effect</p><p>This class is part of the <b>ParticleEffect Library</b> and follows the same usage conditions</p><p>Rewritten in Scala by TheReturningVoid
+</p></div><dl class="attributes block"> <dt>Since</dt><dd><p>1.7
+</p></dd></dl></div>
+    </li><li name="net.thereturningvoid.particleeffect.ParticleEffect#REDSTONE" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="REDSTONE:net.thereturningvoid.particleeffect.ParticleEffect.Value"></a>
+      <a id="REDSTONE:Value"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">REDSTONE</span><span class="result">: <a href="#ValueextendsOrdered[Enumeration.this.Value]withSerializable" class="extmbr" name="net.thereturningvoid.particleeffect.ParticleEffect.Value">Value</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@REDSTONE:net.thereturningvoid.particleeffect.ParticleEffect.Value" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">A particle effect which is displayed by redstone ore, powered redstone, redstone torches and redstone repeaters:
+It looks like a tiny colored cloud
+The speed value causes the particle to be colored red when set to 0
+</p>
+    </li><li name="net.thereturningvoid.particleeffect.ParticleEffect#SLIME" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="SLIME:net.thereturningvoid.particleeffect.ParticleEffect.Value"></a>
+      <a id="SLIME:Value"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">SLIME</span><span class="result">: <a href="#ValueextendsOrdered[Enumeration.this.Value]withSerializable" class="extmbr" name="net.thereturningvoid.particleeffect.ParticleEffect.Value">Value</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@SLIME:net.thereturningvoid.particleeffect.ParticleEffect.Value" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">A particle effect which is displayed by slimes:</p><div class="fullcomment"><div class="comment cmt"><p>A particle effect which is displayed by slimes:</p><ul><li>It looks like a tiny part of the slimeball icon</li><li>The speed value has no influence on this particle effect
+</li></ul></div></div>
+    </li><li name="net.thereturningvoid.particleeffect.ParticleEffect#SMOKE_LARGE" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="SMOKE_LARGE:net.thereturningvoid.particleeffect.ParticleEffect.Value"></a>
+      <a id="SMOKE_LARGE:Value"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">SMOKE_LARGE</span><span class="result">: <a href="#ValueextendsOrdered[Enumeration.this.Value]withSerializable" class="extmbr" name="net.thereturningvoid.particleeffect.ParticleEffect.Value">Value</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@SMOKE_LARGE:net.thereturningvoid.particleeffect.ParticleEffect.Value" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">A particle effect which is displayed by fire, minecarts with furnace and blazes:</p><div class="fullcomment"><div class="comment cmt"><p>A particle effect which is displayed by fire, minecarts with furnace and blazes:</p><ul><li>It looks like a large gray cloud</li><li>The speed value influences the velocity at which the particle flies off
+</li></ul></div></div>
+    </li><li name="net.thereturningvoid.particleeffect.ParticleEffect#SMOKE_NORMAL" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="SMOKE_NORMAL:net.thereturningvoid.particleeffect.ParticleEffect.Value"></a>
+      <a id="SMOKE_NORMAL:Value"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">SMOKE_NORMAL</span><span class="result">: <a href="#ValueextendsOrdered[Enumeration.this.Value]withSerializable" class="extmbr" name="net.thereturningvoid.particleeffect.ParticleEffect.Value">Value</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@SMOKE_NORMAL:net.thereturningvoid.particleeffect.ParticleEffect.Value" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">A particle effect which is displayed by primed tnt, torches, droppers, dispensers, end portals, brewing stands and
+monster spawners:</p><div class="fullcomment"><div class="comment cmt"><p>A particle effect which is displayed by primed tnt, torches, droppers, dispensers, end portals, brewing stands and
+monster spawners:</p><ul><li>It looks like a little gray cloud</li><li>The speed value influences the velocity at which the particle flies off
+</li></ul></div></div>
+    </li><li name="net.thereturningvoid.particleeffect.ParticleEffect#SNOWBALL" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="SNOWBALL:net.thereturningvoid.particleeffect.ParticleEffect.Value"></a>
+      <a id="SNOWBALL:Value"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">SNOWBALL</span><span class="result">: <a href="#ValueextendsOrdered[Enumeration.this.Value]withSerializable" class="extmbr" name="net.thereturningvoid.particleeffect.ParticleEffect.Value">Value</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@SNOWBALL:net.thereturningvoid.particleeffect.ParticleEffect.Value" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">A particle effect which is displayed when snowballs hit a block:</p><div class="fullcomment"><div class="comment cmt"><p>A particle effect which is displayed when snowballs hit a block:</p><ul><li>It looks like a little piece with the snowball texture</li><li>The speed value has no influence on this particle effect
+</li></ul></div></div>
+    </li><li name="net.thereturningvoid.particleeffect.ParticleEffect#SNOW_SHOVEL" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="SNOW_SHOVEL:net.thereturningvoid.particleeffect.ParticleEffect.Value"></a>
+      <a id="SNOW_SHOVEL:Value"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">SNOW_SHOVEL</span><span class="result">: <a href="#ValueextendsOrdered[Enumeration.this.Value]withSerializable" class="extmbr" name="net.thereturningvoid.particleeffect.ParticleEffect.Value">Value</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@SNOW_SHOVEL:net.thereturningvoid.particleeffect.ParticleEffect.Value" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">A particle effect which is currently unused:</p><div class="fullcomment"><div class="comment cmt"><p>A particle effect which is currently unused:</p><ul><li>It looks like a tiny white cloud</li><li>The speed value influences the velocity at which the particle flies off
+</li></ul></div></div>
+    </li><li name="net.thereturningvoid.particleeffect.ParticleEffect#SPELL" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="SPELL:net.thereturningvoid.particleeffect.ParticleEffect.Value"></a>
+      <a id="SPELL:Value"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">SPELL</span><span class="result">: <a href="#ValueextendsOrdered[Enumeration.this.Value]withSerializable" class="extmbr" name="net.thereturningvoid.particleeffect.ParticleEffect.Value">Value</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@SPELL:net.thereturningvoid.particleeffect.ParticleEffect.Value" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">A particle effect which is displayed when splash potions or bottles o' enchanting hit something:</p><div class="fullcomment"><div class="comment cmt"><p>A particle effect which is displayed when splash potions or bottles o' enchanting hit something:</p><ul><li>It looks like a white swirl</li><li>The speed value causes the particle to only move upwards when set to 0</li><li>Only the motion on the y-axis can be controlled, the motion on the x- and z-axis are multiplied by 0.1 when setting the values to 0
+</li></ul></div></div>
+    </li><li name="net.thereturningvoid.particleeffect.ParticleEffect#SPELL_INSTANT" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="SPELL_INSTANT:net.thereturningvoid.particleeffect.ParticleEffect.Value"></a>
+      <a id="SPELL_INSTANT:Value"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">SPELL_INSTANT</span><span class="result">: <a href="#ValueextendsOrdered[Enumeration.this.Value]withSerializable" class="extmbr" name="net.thereturningvoid.particleeffect.ParticleEffect.Value">Value</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@SPELL_INSTANT:net.thereturningvoid.particleeffect.ParticleEffect.Value" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">A particle effect which is displayed when instant splash potions hit something:</p><div class="fullcomment"><div class="comment cmt"><p>A particle effect which is displayed when instant splash potions hit something:</p><ul><li>It looks like a white cross</li><li>The speed value causes the particle to only move upwards when set to 0</li><li>Only the motion on the y-axis can be controlled, the motion on the x- and z-axis are multiplied by 0.1 when setting the values to 0
+</li></ul></div></div>
+    </li><li name="net.thereturningvoid.particleeffect.ParticleEffect#SPELL_MOB" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="SPELL_MOB:net.thereturningvoid.particleeffect.ParticleEffect.Value"></a>
+      <a id="SPELL_MOB:Value"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">SPELL_MOB</span><span class="result">: <a href="#ValueextendsOrdered[Enumeration.this.Value]withSerializable" class="extmbr" name="net.thereturningvoid.particleeffect.ParticleEffect.Value">Value</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@SPELL_MOB:net.thereturningvoid.particleeffect.ParticleEffect.Value" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">A particle effect which is displayed by entities with active potion effects:</p><div class="fullcomment"><div class="comment cmt"><p>A particle effect which is displayed by entities with active potion effects:</p><ul><li>It looks like a colored swirl</li><li>The speed value causes the particle to be colored black when set to 0</li><li>The particle color gets lighter when increasing the speed and darker when decreasing the speed
+</li></ul></div></div>
+    </li><li name="net.thereturningvoid.particleeffect.ParticleEffect#SPELL_MOB_AMBIENT" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="SPELL_MOB_AMBIENT:net.thereturningvoid.particleeffect.ParticleEffect.Value"></a>
+      <a id="SPELL_MOB_AMBIENT:Value"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">SPELL_MOB_AMBIENT</span><span class="result">: <a href="#ValueextendsOrdered[Enumeration.this.Value]withSerializable" class="extmbr" name="net.thereturningvoid.particleeffect.ParticleEffect.Value">Value</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@SPELL_MOB_AMBIENT:net.thereturningvoid.particleeffect.ParticleEffect.Value" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">A particle effect which is displayed by entities with active potion effects applied through a beacon:</p><div class="fullcomment"><div class="comment cmt"><p>A particle effect which is displayed by entities with active potion effects applied through a beacon:</p><ul><li>It looks like a transparent colored swirl</li><li>The speed value causes the particle to be always colored black when set to 0</li><li>The particle color gets lighter when increasing the speed and darker when decreasing the speed
+</li></ul></div></div>
+    </li><li name="net.thereturningvoid.particleeffect.ParticleEffect#SPELL_WITCH" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="SPELL_WITCH:net.thereturningvoid.particleeffect.ParticleEffect.Value"></a>
+      <a id="SPELL_WITCH:Value"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">SPELL_WITCH</span><span class="result">: <a href="#ValueextendsOrdered[Enumeration.this.Value]withSerializable" class="extmbr" name="net.thereturningvoid.particleeffect.ParticleEffect.Value">Value</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@SPELL_WITCH:net.thereturningvoid.particleeffect.ParticleEffect.Value" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">A particle effect which is displayed by witches:</p><div class="fullcomment"><div class="comment cmt"><p>A particle effect which is displayed by witches:</p><ul><li>It looks like a purple cross</li><li>The speed value causes the particle to only move upwards when set to 0</li><li>Only the motion on the y-axis can be controlled, the motion on the x- and z-axis are multiplied by 0.1 when setting the values to 0
+</li></ul></div></div>
+    </li><li name="net.thereturningvoid.particleeffect.ParticleEffect#SUSPENDED" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="SUSPENDED:net.thereturningvoid.particleeffect.ParticleEffect.Value"></a>
+      <a id="SUSPENDED:Value"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">SUSPENDED</span><span class="result">: <a href="#ValueextendsOrdered[Enumeration.this.Value]withSerializable" class="extmbr" name="net.thereturningvoid.particleeffect.ParticleEffect.Value">Value</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@SUSPENDED:net.thereturningvoid.particleeffect.ParticleEffect.Value" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">A particle effect which is displayed by water:</p><div class="fullcomment"><div class="comment cmt"><p>A particle effect which is displayed by water:</p><ul><li>It looks like a tiny blue square</li><li>The speed value has no influence on this particle effect
+</li></ul></div></div>
+    </li><li name="net.thereturningvoid.particleeffect.ParticleEffect#SUSPENDED_DEPTH" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="SUSPENDED_DEPTH:net.thereturningvoid.particleeffect.ParticleEffect.Value"></a>
+      <a id="SUSPENDED_DEPTH:Value"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">SUSPENDED_DEPTH</span><span class="result">: <a href="#ValueextendsOrdered[Enumeration.this.Value]withSerializable" class="extmbr" name="net.thereturningvoid.particleeffect.ParticleEffect.Value">Value</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@SUSPENDED_DEPTH:net.thereturningvoid.particleeffect.ParticleEffect.Value" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">A particle effect which is displayed by air when close to bedrock and the in the void:</p><div class="fullcomment"><div class="comment cmt"><p>A particle effect which is displayed by air when close to bedrock and the in the void:</p><ul><li>It looks like a tiny gray square</li><li>The speed value has no influence on this particle effect
+</li></ul></div></div>
+    </li><li name="net.thereturningvoid.particleeffect.ParticleEffect#TOWN_AURA" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="TOWN_AURA:net.thereturningvoid.particleeffect.ParticleEffect.Value"></a>
+      <a id="TOWN_AURA:Value"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">TOWN_AURA</span><span class="result">: <a href="#ValueextendsOrdered[Enumeration.this.Value]withSerializable" class="extmbr" name="net.thereturningvoid.particleeffect.ParticleEffect.Value">Value</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@TOWN_AURA:net.thereturningvoid.particleeffect.ParticleEffect.Value" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">A particle effect which is displayed by mycelium:</p><div class="fullcomment"><div class="comment cmt"><p>A particle effect which is displayed by mycelium:</p><ul><li>It looks like a tiny gray square</li><li>The speed value has no influence on this particle effect
+</li></ul></div></div>
+    </li><li name="net.thereturningvoid.particleeffect.ParticleEffect#VILLAGER_ANGRY" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="VILLAGER_ANGRY:net.thereturningvoid.particleeffect.ParticleEffect.Value"></a>
+      <a id="VILLAGER_ANGRY:Value"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">VILLAGER_ANGRY</span><span class="result">: <a href="#ValueextendsOrdered[Enumeration.this.Value]withSerializable" class="extmbr" name="net.thereturningvoid.particleeffect.ParticleEffect.Value">Value</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@VILLAGER_ANGRY:net.thereturningvoid.particleeffect.ParticleEffect.Value" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">A particle effect which is displayed when attacking a villager in a village:</p><div class="fullcomment"><div class="comment cmt"><p>A particle effect which is displayed when attacking a villager in a village:</p><ul><li>It looks like a cracked gray heart</li><li>The speed value has no influence on this particle effect
+</li></ul></div></div>
+    </li><li name="net.thereturningvoid.particleeffect.ParticleEffect#VILLAGER_HAPPY" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="VILLAGER_HAPPY:net.thereturningvoid.particleeffect.ParticleEffect.Value"></a>
+      <a id="VILLAGER_HAPPY:Value"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">VILLAGER_HAPPY</span><span class="result">: <a href="#ValueextendsOrdered[Enumeration.this.Value]withSerializable" class="extmbr" name="net.thereturningvoid.particleeffect.ParticleEffect.Value">Value</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@VILLAGER_HAPPY:net.thereturningvoid.particleeffect.ParticleEffect.Value" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">A particle effect which is displayed when using bone meal and trading with a villager in a village:</p><div class="fullcomment"><div class="comment cmt"><p>A particle effect which is displayed when using bone meal and trading with a villager in a village:</p><ul><li>It looks like a green star</li><li>The speed value has no influence on this particle effect
+</li></ul></div></div>
+    </li><li name="scala.Enumeration#Value" visbl="prt" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="Value(i:Int,name:String):Enumeration.this.Value"></a>
+      <a id="Value(Int,String):Value"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">Value</span><span class="params">(<span name="i">i: <span class="extype" name="scala.Int">Int</span></span>, <span name="name">name: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result">: <a href="#ValueextendsOrdered[Enumeration.this.Value]withSerializable" class="extmbr" name="net.thereturningvoid.particleeffect.ParticleEffect.Value">Value</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@Value(i:Int,name:String):Enumeration.this.Value" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>Enumeration</dd></dl></div>
+    </li><li name="scala.Enumeration#Value" visbl="prt" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="Value(name:String):Enumeration.this.Value"></a>
+      <a id="Value(String):Value"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">Value</span><span class="params">(<span name="name">name: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result">: <a href="#ValueextendsOrdered[Enumeration.this.Value]withSerializable" class="extmbr" name="net.thereturningvoid.particleeffect.ParticleEffect.Value">Value</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@Value(name:String):Enumeration.this.Value" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>Enumeration</dd></dl></div>
+    </li><li name="scala.Enumeration#Value" visbl="prt" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="Value(i:Int):Enumeration.this.Value"></a>
+      <a id="Value(Int):Value"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">Value</span><span class="params">(<span name="i">i: <span class="extype" name="scala.Int">Int</span></span>)</span><span class="result">: <a href="#ValueextendsOrdered[Enumeration.this.Value]withSerializable" class="extmbr" name="net.thereturningvoid.particleeffect.ParticleEffect.Value">Value</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@Value(i:Int):Enumeration.this.Value" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>Enumeration</dd></dl></div>
+    </li><li name="scala.Enumeration#Value" visbl="prt" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="Value:Enumeration.this.Value"></a>
+      <a id="Value:Value"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">Value</span><span class="result">: <a href="#ValueextendsOrdered[Enumeration.this.Value]withSerializable" class="extmbr" name="net.thereturningvoid.particleeffect.ParticleEffect.Value">Value</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@Value:Enumeration.this.Value" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>Enumeration</dd></dl></div>
+    </li><li name="net.thereturningvoid.particleeffect.ParticleEffect#WATER_BUBBLE" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="WATER_BUBBLE:net.thereturningvoid.particleeffect.ParticleEffect.Value"></a>
+      <a id="WATER_BUBBLE:Value"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">WATER_BUBBLE</span><span class="result">: <a href="#ValueextendsOrdered[Enumeration.this.Value]withSerializable" class="extmbr" name="net.thereturningvoid.particleeffect.ParticleEffect.Value">Value</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@WATER_BUBBLE:net.thereturningvoid.particleeffect.ParticleEffect.Value" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">A particle effect which is displayed by swimming entities and arrows in water:</p><div class="fullcomment"><div class="comment cmt"><p>A particle effect which is displayed by swimming entities and arrows in water:</p><ul><li>It looks like a bubble</li><li>The speed value influences the velocity at which the particle flies off
+</li></ul></div></div>
+    </li><li name="net.thereturningvoid.particleeffect.ParticleEffect#WATER_DROP" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="WATER_DROP:net.thereturningvoid.particleeffect.ParticleEffect.Value"></a>
+      <a id="WATER_DROP:Value"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">WATER_DROP</span><span class="result">: <a href="#ValueextendsOrdered[Enumeration.this.Value]withSerializable" class="extmbr" name="net.thereturningvoid.particleeffect.ParticleEffect.Value">Value</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@WATER_DROP:net.thereturningvoid.particleeffect.ParticleEffect.Value" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">A particle effect which is displayed when rain hits the ground:</p><div class="fullcomment"><div class="comment cmt"><p>A particle effect which is displayed when rain hits the ground:</p><ul><li>It looks like a blue droplet</li><li>The speed value has no influence on this particle effect
+</li></ul></div></div>
+    </li><li name="net.thereturningvoid.particleeffect.ParticleEffect#WATER_SPLASH" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="WATER_SPLASH:net.thereturningvoid.particleeffect.ParticleEffect.Value"></a>
+      <a id="WATER_SPLASH:Value"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">WATER_SPLASH</span><span class="result">: <a href="#ValueextendsOrdered[Enumeration.this.Value]withSerializable" class="extmbr" name="net.thereturningvoid.particleeffect.ParticleEffect.Value">Value</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@WATER_SPLASH:net.thereturningvoid.particleeffect.ParticleEffect.Value" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">A particle effect which is displayed by swimming entities and shaking wolves:</p><div class="fullcomment"><div class="comment cmt"><p>A particle effect which is displayed by swimming entities and shaking wolves:</p><ul><li>It looks like a blue drop</li><li>The speed value has no influence on this particle effect
+</li></ul></div></div>
+    </li><li name="net.thereturningvoid.particleeffect.ParticleEffect#WATER_WAKE" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="WATER_WAKE:net.thereturningvoid.particleeffect.ParticleEffect.Value"></a>
+      <a id="WATER_WAKE:Value"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">WATER_WAKE</span><span class="result">: <a href="#ValueextendsOrdered[Enumeration.this.Value]withSerializable" class="extmbr" name="net.thereturningvoid.particleeffect.ParticleEffect.Value">Value</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@WATER_WAKE:net.thereturningvoid.particleeffect.ParticleEffect.Value" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">A particle effect which is displayed on water when fishing:</p><div class="fullcomment"><div class="comment cmt"><p>A particle effect which is displayed on water when fishing:</p><ul><li>It looks like a blue droplet</li><li>The speed value influences the velocity at which the particle flies off
+</li></ul></div></div>
+    </li><li name="scala.Enumeration#apply" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="apply(x:Int):Enumeration.this.Value"></a>
+      <a id="apply(Int):Value"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">apply</span><span class="params">(<span name="x">x: <span class="extype" name="scala.Int">Int</span></span>)</span><span class="result">: <a href="#ValueextendsOrdered[Enumeration.this.Value]withSerializable" class="extmbr" name="net.thereturningvoid.particleeffect.ParticleEffect.Value">Value</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@apply(x:Int):Enumeration.this.Value" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Enumeration</dd></dl></div>
+    </li><li name="scala.Any#asInstanceOf" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="asInstanceOf[T0]:T0"></a>
+      <a id="asInstanceOf[T0]:T0"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">asInstanceOf</span><span class="tparams">[<span name="T0">T0</span>]</span><span class="result">: <span class="extype" name="scala.Any.asInstanceOf.T0">T0</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@asInstanceOf[T0]:T0" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Any</dd></dl></div>
+    </li><li name="scala.AnyRef#clone" visbl="prt" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="clone():Object"></a>
+      <a id="clone():AnyRef"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">clone</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@clone():Object" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected[<a href="../../../java$lang.html" class="extype" name="java.lang">java.lang</a>] </dd><dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">(<span>
+      
+      <span class="defval" name="classOf[java.lang.CloneNotSupportedException]">...</span>
+    </span>)</span>
+              
+        </dd></dl></div>
+    </li><li name="scala.AnyRef#eq" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="eq(x$1:AnyRef):Boolean"></a>
+      <a id="eq(AnyRef):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">eq</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="scala.AnyRef">AnyRef</span></span>)</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@eq(x$1:AnyRef):Boolean" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li name="scala.AnyRef#equals" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="equals(x$1:Any):Boolean"></a>
+      <a id="equals(Any):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">equals</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="scala.Any">Any</span></span>)</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@equals(x$1:Any):Boolean" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+    </li><li name="scala.AnyRef#finalize" visbl="prt" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="finalize():Unit"></a>
+      <a id="finalize():Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">finalize</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@finalize():Unit" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected[<a href="../../../java$lang.html" class="extype" name="java.lang">java.lang</a>] </dd><dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">(<span>
+      
+      <span class="symbol">classOf[java.lang.Throwable]</span>
+    </span>)</span>
+              
+        </dd></dl></div>
+    </li><li name="net.thereturningvoid.particleeffect.ParticleEffect#fromID" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="fromID(id:Int):Option[net.thereturningvoid.particleeffect.ParticleEffect.PEVal]"></a>
+      <a id="fromID(Int):Option[PEVal]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">fromID</span><span class="params">(<span name="id">id: <span class="extype" name="scala.Int">Int</span></span>)</span><span class="result">: <span class="extype" name="scala.Option">Option</span>[<a href="ParticleEffect$$PEVal.html" class="extype" name="net.thereturningvoid.particleeffect.ParticleEffect.PEVal">PEVal</a>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@fromID(id:Int):Option[net.thereturningvoid.particleeffect.ParticleEffect.PEVal]" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Returns the particle effect with the given id
+</p><div class="fullcomment"><div class="comment cmt"><p>Returns the particle effect with the given id
+</p></div><dl class="paramcmts block"><dt class="param">id</dt><dd class="cmt"><p>Id of the particle effect</p></dd><dt>returns</dt><dd class="cmt"><p>The particle effect
+</p></dd></dl></div>
+    </li><li name="net.thereturningvoid.particleeffect.ParticleEffect#fromName" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="fromName(name:String):Option[net.thereturningvoid.particleeffect.ParticleEffect.PEVal]"></a>
+      <a id="fromName(String):Option[PEVal]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">fromName</span><span class="params">(<span name="name">name: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result">: <span class="extype" name="scala.Option">Option</span>[<a href="ParticleEffect$$PEVal.html" class="extype" name="net.thereturningvoid.particleeffect.ParticleEffect.PEVal">PEVal</a>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@fromName(name:String):Option[net.thereturningvoid.particleeffect.ParticleEffect.PEVal]" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Returns the particle effect with the given name
+</p><div class="fullcomment"><div class="comment cmt"><p>Returns the particle effect with the given name
+</p></div><dl class="paramcmts block"><dt class="param">name</dt><dd class="cmt"><p>Name of the particle effect</p></dd><dt>returns</dt><dd class="cmt"><p>The particle effect
+</p></dd></dl></div>
+    </li><li name="scala.AnyRef#getClass" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="getClass():Class[_]"></a>
+      <a id="getClass():Class[_]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">getClass</span><span class="params">()</span><span class="result">: <span class="extype" name="java.lang.Class">Class</span>[_]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@getClass():Class[_]" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+    </li><li name="scala.AnyRef#hashCode" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="hashCode():Int"></a>
+      <a id="hashCode():Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">hashCode</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Int">Int</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@hashCode():Int" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+    </li><li name="scala.Any#isInstanceOf" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="isInstanceOf[T0]:Boolean"></a>
+      <a id="isInstanceOf[T0]:Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">isInstanceOf</span><span class="tparams">[<span name="T0">T0</span>]</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@isInstanceOf[T0]:Boolean" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Any</dd></dl></div>
+    </li><li name="scala.Enumeration#maxId" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="maxId:Int"></a>
+      <a id="maxId:Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">maxId</span><span class="result">: <span class="extype" name="scala.Int">Int</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@maxId:Int" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Enumeration</dd></dl></div>
+    </li><li name="scala.AnyRef#ne" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="ne(x$1:AnyRef):Boolean"></a>
+      <a id="ne(AnyRef):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">ne</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="scala.AnyRef">AnyRef</span></span>)</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@ne(x$1:AnyRef):Boolean" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li name="scala.Enumeration#nextId" visbl="prt" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="nextId:Int"></a>
+      <a id="nextId:Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">var</span>
+      </span>
+      <span class="symbol">
+        <span class="name">nextId</span><span class="result">: <span class="extype" name="scala.Int">Int</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@nextId:Int" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>Enumeration</dd></dl></div>
+    </li><li name="scala.Enumeration#nextName" visbl="prt" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="nextName:Iterator[String]"></a>
+      <a id="nextName:Iterator[String]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">var</span>
+      </span>
+      <span class="symbol">
+        <span class="name">nextName</span><span class="result">: <span class="extype" name="scala.Iterator">Iterator</span>[<span class="extype" name="scala.Predef.String">String</span>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@nextName:Iterator[String]" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>Enumeration</dd></dl></div>
+    </li><li name="scala.AnyRef#notify" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="notify():Unit"></a>
+      <a id="notify():Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">notify</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@notify():Unit" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li name="scala.AnyRef#notifyAll" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="notifyAll():Unit"></a>
+      <a id="notifyAll():Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">notifyAll</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@notifyAll():Unit" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li name="scala.Enumeration#readResolve" visbl="prt" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="readResolve():AnyRef"></a>
+      <a id="readResolve():AnyRef"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">readResolve</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@readResolve():AnyRef" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>Enumeration</dd></dl></div>
+    </li><li name="scala.AnyRef#synchronized" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="synchronized[T0](x$1:=&gt;T0):T0"></a>
+      <a id="synchronized[T0](⇒T0):T0"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">synchronized</span><span class="tparams">[<span name="T0">T0</span>]</span><span class="params">(<span name="arg0">arg0: ⇒ <span class="extype" name="java.lang.AnyRef.synchronized.T0">T0</span></span>)</span><span class="result">: <span class="extype" name="java.lang.AnyRef.synchronized.T0">T0</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@synchronized[T0](x$1:=&gt;T0):T0" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li name="scala.Enumeration#toString" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="toString():String"></a>
+      <a id="toString():String"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">toString</span><span class="params">()</span><span class="result">: <span class="extype" name="java.lang.String">String</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@toString():String" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Enumeration → AnyRef → Any</dd></dl></div>
+    </li><li name="net.thereturningvoid.particleeffect.ParticleEffect#valueToPEValue" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="valueToPEValue(v:net.thereturningvoid.particleeffect.ParticleEffect.Value):net.thereturningvoid.particleeffect.ParticleEffect.PEVal"></a>
+      <a id="valueToPEValue(Value):PEVal"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">valueToPEValue</span><span class="params">(<span name="v">v: <a href="#ValueextendsOrdered[Enumeration.this.Value]withSerializable" class="extmbr" name="net.thereturningvoid.particleeffect.ParticleEffect.Value">Value</a></span>)</span><span class="result">: <a href="ParticleEffect$$PEVal.html" class="extype" name="net.thereturningvoid.particleeffect.ParticleEffect.PEVal">PEVal</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@valueToPEValue(v:net.thereturningvoid.particleeffect.ParticleEffect.Value):net.thereturningvoid.particleeffect.ParticleEffect.PEVal" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      
+    </li><li name="scala.Enumeration#values" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="values:Enumeration.this.ValueSet"></a>
+      <a id="values:ValueSet"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">values</span><span class="result">: <a href="#ValueSetextendsAbstractSet[Enumeration.this.Value]withSortedSet[Enumeration.this.Value]withSortedSetLike[Enumeration.this.Value,Enumeration.this.ValueSet]withSerializable" class="extmbr" name="net.thereturningvoid.particleeffect.ParticleEffect.ValueSet">ValueSet</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@values:Enumeration.this.ValueSet" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Enumeration</dd></dl></div>
+    </li><li name="scala.AnyRef#wait" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="wait():Unit"></a>
+      <a id="wait():Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">wait</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@wait():Unit" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">(<span>
+      
+      <span class="defval" name="classOf[java.lang.InterruptedException]">...</span>
+    </span>)</span>
+              
+        </dd></dl></div>
+    </li><li name="scala.AnyRef#wait" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="wait(x$1:Long,x$2:Int):Unit"></a>
+      <a id="wait(Long,Int):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">wait</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="scala.Long">Long</span></span>, <span name="arg1">arg1: <span class="extype" name="scala.Int">Int</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@wait(x$1:Long,x$2:Int):Unit" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">(<span>
+      
+      <span class="defval" name="classOf[java.lang.InterruptedException]">...</span>
+    </span>)</span>
+              
+        </dd></dl></div>
+    </li><li name="scala.AnyRef#wait" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="wait(x$1:Long):Unit"></a>
+      <a id="wait(Long):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">wait</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="scala.Long">Long</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@wait(x$1:Long):Unit" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">(<span>
+      
+      <span class="defval" name="classOf[java.lang.InterruptedException]">...</span>
+    </span>)</span>
+              
+        </dd></dl></div>
+    </li><li name="scala.Enumeration#withName" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="withName(s:String):Enumeration.this.Value"></a>
+      <a id="withName(String):Value"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">withName</span><span class="params">(<span name="s">s: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result">: <a href="#ValueextendsOrdered[Enumeration.this.Value]withSerializable" class="extmbr" name="net.thereturningvoid.particleeffect.ParticleEffect.Value">Value</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#net.thereturningvoid.particleeffect.ParticleEffect$@withName(s:String):Enumeration.this.Value" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Enumeration</dd></dl></div>
+    </li></ol>
+            </div>
+
+        
+
+        
+        </div>
+
+        <div id="inheritedMembers">
+        <div class="parent" name="scala.Enumeration">
+              <h3>Inherited from <span class="extype" name="scala.Enumeration">Enumeration</span></h3>
+            </div><div class="parent" name="scala.Serializable">
+              <h3>Inherited from <span class="extype" name="scala.Serializable">Serializable</span></h3>
+            </div><div class="parent" name="java.io.Serializable">
+              <h3>Inherited from <span class="extype" name="java.io.Serializable">Serializable</span></h3>
+            </div><div class="parent" name="scala.AnyRef">
+              <h3>Inherited from <span class="extype" name="scala.AnyRef">AnyRef</span></h3>
+            </div><div class="parent" name="scala.Any">
+              <h3>Inherited from <span class="extype" name="scala.Any">Any</span></h3>
+            </div>
+        
+        </div>
+
+        <div id="groupedMembers">
+        <div class="group" name="Ungrouped">
+              <h3>Ungrouped</h3>
+              
+            </div>
+        </div>
+
+      </div>
+
+      <div id="tooltip"></div>
+
+      <div id="footer">  </div>
+
+
+    </body>
+      </html>
